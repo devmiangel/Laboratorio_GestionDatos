@@ -1,0 +1,27 @@
+{
+  "name": "labo_gestiondatos",
+  "version": "1.0.0",
+  "description": "En esta ocacion realizamos un entorno de pruebas el cual estara documetnado a traves de la herramienta de reportes proporcionada por pytest, para ello en nuestra carpeta reports, encontramos los reportes generados en HTML, para este primer ejercicio, encontramos el reporte en el documento [Reporte_Selenium](./reports/report.html)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devmiangel/Laboratorio_GestionDatos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/devmiangel/Laboratorio_GestionDatos/issues"
+  },
+  "homepage": "https://github.com/devmiangel/Laboratorio_GestionDatos#readme",
+  "devDependencies": {
+    "cypress": "^15.15.0"
+  }
+}
