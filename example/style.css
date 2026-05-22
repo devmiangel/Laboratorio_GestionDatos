@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f4f4f4;
+}
+
+nav{
+    background:#111;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+}
+
+ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero button{
+    padding:15px 30px;
+    border:none;
+    background:#0077ff;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:50px;
+}
+
+.card{
+    background:white;
+    padding:40px;
+    border-radius:10px;
+    width:200px;
+    text-align:center;
+}
+
+.login{
+    background:white;
+    width:300px;
+    margin:50px auto;
+    padding:30px;
+    border-radius:10px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input{
+    padding:10px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+}
