@@ -77,7 +77,7 @@ al lanzar el test podemos ver lo siguiente, en el arbol de resultados:
 En lo que respecta al resumen se genera una tabla con los siguientes valores:
 
 | Label  | #samples  | average  |  Min | Max  | std. Dev.  | error %  |  Througthput | Received KB/sec | sent KB/sec | Avg. Bytes  |
-|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|---|
 | HomePage_Request  | 10  |  159 |  87 |  619 | 158.04  | 0.0%  | 2.2/sec  |  3.75 |  0.38 | 1728.4  |
 | TOTAL  | 10  |  159 |  87 |  619 | 158.04  | 0.0%  | 2.2/sec  |  3.75 |  0.38 | 1728.4  |
 
@@ -116,12 +116,12 @@ una vez con una url adecuada para usar en clarity, procedemos a crear un nuevo p
 
 ahora realizaremos la instalacion manual de clarity en el proyecto, esto lo proporciona la pagina de clarity, en el head debemos copiar lo siguiente
 
-`<script type="text/javascript">`
-`    (function(c,l,a,r,i,t,y){`
-`        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};`
-`        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;`
-`        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);`
-`    })(window, document, "clarity", "script", "wv0s5pwold");`
+`<script type="text/javascript">`<br/>
+`    (function(c,l,a,r,i,t,y){`<br/>
+`        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};`<br/>
+`        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;`<br/>
+`        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);`<br/>
+`    })(window, document, "clarity", "script", "wv0s5pwold");`<br/>
 `</script>`
 
 En el [index](./example/index.html) se ve mucho mejor, ahora volvemos a subir el proyecto a netlify, y navegamos en la pagina, al volver a clarity, veremos que la grabacion del uso por parte de un usuario real se graba
